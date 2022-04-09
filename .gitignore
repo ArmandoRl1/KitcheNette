@@ -1,6 +1,6 @@
 # data files
 data/*.pkl
-data/*.csv
+*.csv
 
 # result files
 results/logs/

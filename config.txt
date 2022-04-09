@@ -1,0 +1,13 @@
+Environment configurations
+
+conda create --name kitchenette python=3.6
+
+conda activate kitchenette
+
+pip install pandas scikit-learn
+
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+
+# Apparently cuda90 doesnt work with rtx?
+# conda install pytorch=0.4.1 cuda90 -c pytorch
+
